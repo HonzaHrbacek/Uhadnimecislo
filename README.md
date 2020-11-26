@@ -4,6 +4,7 @@ Simple game created in the online course JS: From Zero to Expert created by Jona
 
 Some of the things I have learned during this project:
 
-- Basic manipulation with DOM elements
+- Basic manipulation of DOM elements
 - Handling of click events
+- Generating random numbers
 - Code refactoring
