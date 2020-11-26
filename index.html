@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="https://codehard.cz/uhadnimecislo/favicon.png"/>
+    <link rel="stylesheet" href="https://codehard.cz/uhadnimecislo/style.css" />
+    <!-- <link rel="stylesheet" href="/style.css" /> -->
+    <title>Uhádni mé číslo!</title>
+  </head>
+  <body>
+    <div class="lost"></div>
+    <!-- Win style pres celou obrazovku jsem nakonec neimplementoval, at je mozne vyuzit tracitko Again. -->
+    <div class="win"></div>
+    <header>
+      <h1>Uhádni mé číslo! ;)</h1>
+      <p class="between">(mezi 1 a 10)</p>    
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Hádej!</button>
+      </section>
+      <section class="right">
+        <p class="message">Začni hádat, máš 3 pokusy...</p>
+        <p class="label-score">💯 Skóre: <span class="score">10</span></p>
+        <p class="label-highscore">
+          🥇 Nejvyšší skóre: <span class="highscore">0</span>
+        </p>
+      </section>
+      <button class="btn again">Znovu!</button>      
+    </main>
+    <footer>Copyright &copy;  2020 Jonas Schmedtmann. Reproduced by Honza Hrbacek.</footer>
+    <script src="https://codehard.cz/uhadnimecislo/script.js"></script>
+    <!-- <script src="/script.js"></script> -->
+  </body>
+</html>
